@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubbo Termite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/63fc44e5a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav id="sticky">
+                <img src="public/rubbo-termite.png" class="logo" alt="Rubbo Termite Co." />
+                <ul id="side-menu">
+                    <li>
+                        <a href="#about">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">
+                            SERVICES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">
+                            FUMIGATION
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#testimonials">
+                            TESTIMONIALS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            CONTACT US
+                        </a>
+                    </li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Your Trusted Termite Control Experts
+                <h1>Hi, We're Team <span>Rubbo</span>.</h1>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- -------- About Section ---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="public/carlsbad.png" alt="Carlsbad, CA" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p> Rubbo Termite Co., located in Carlsbad, California, is a trusted termite company known for its
+                        exceptional customer service and meticulous attention to detail. With over 24 years of
+                        experience, owner Michael Rubbo has cultivated a stellar reputation within the Real Estate
+                        community. Our commitment lies in providing prompt, courteous, and reliable termite and repair
+                        services, leveraging cutting-edge, eco-friendly technologies, all offered at discounted rates.
+                        We pride ourselves on honoring God in all aspects of our work and fostering enduring
+                        partnerships with Real Estate Agents, Clients, and our local community. Our philosophy revolves
+                        around giving more than we take, recognizing that every connection is an opportunity to
+                        flourish.</p>
+                    <!-- ------ Tabs Section ------ -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Michael Rubbo</p>
+                        <p class="tab-links" onclick="openTab('experience')">Rubbo Termite</p>
+                        <p class="tab-links" onclick="openTab('commitment')">Our Commitment</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Michael Rubbo, owner of Rubbo Termite Co., grew up in San
+                                Diego County and has created a stellar reputation within the Real Estate community over
+                                the past 24 years. <br> <span>“Every connection is a chance to win business. I give
+                                    more
+                                    than
+                                    I take, because the more I give, the more I get back…”</span></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <!-- ------ Experience Section ------ -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>At Rubbo Termite Co. our reputation is built on 100% customer
+                                    satisfaction.</span><br> <br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- ------ Committed Section ------ -->
+                    <div class="tab-contents" id="commitment">
+                        <ul>
+                            <li><span id="important">We are committed</span> <br> <br>To delivering fast, courteous and
+                                reliable termite and repair services by combining the latest environmentally
+                                conscious-technologies at a high-quality, discount price.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------ Portfolio Section ------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="public/wood-repair.png" alt="wood-repair-service" height="100%">
+                    <div class="layer">
+                        <h3>
+                            Wood Repair Service
+                        </h3>
+                        <p>
+                            Each year, termites invade millions of homes, causing billions of dollars of damage that is
+                            not covered by homeowner's insurance. It is not a matter of if your home will get termites,
+                            but when.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="public/communication.png" alt="wood-repair-service" height="100%">
+                    <div class="layer">
+                        <h3>
+                            Timely Inspections
+                        </h3>
+                        <p>
+                            Our inspections fit everyone. Whether you're a Real Estate Agent, a Property Seller, or a
+                            Buyer, Our inspections are designed to meet your needs.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="public/fumigation.png" alt="wood-repair-service">
+                    <div class="layer">
+                        <h3>
+                            Fumigations
+                        </h3>
+                        <p>
+                            The fumigation process starts with preparing your home for fumigation. Rubbo Termite Co.
+                            will guide you through the setup process.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------ Contact Section ------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-envelope"></i>INFO@RUBBOTERMITE.COM</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(760) 994-0826</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/RubboTermite/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/rubbotermite/?hl=en" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rubbo Termite. All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        const sideMenu = document.getElementById('side-menu');
+
+        const openMenu = () => {
+            sideMenu.style.right = "0";
+        };
+
+        const closeMenu = () => {
+            sideMenu.style.right = '-200px';
+        }
+    </script>
+
+    <script>
+
+        const tabLinks = document.getElementsByClassName('tab-links');
+        const tabContents = document.getElementsByClassName('tab-contents');
+
+        const openTab = (tabName) => {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+    </script>
+</body>
+
+</html>
